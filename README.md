@@ -7,15 +7,21 @@ Pydantic's base model is used to validate endpoints' URLs, media's directories a
 
 ## GoPro Methods and Respective Endpoints
 
-* GoPro.state(): http://10.5.5.9:8080/gopro/camera/state'
+### GoPro.state() 
+http://10.5.5.9:8080/gopro/camera/state'
 
-* GoPro.info(): http://10.5.5.9:8080/gp/gpControl'
+### GoPro.info()
+http://10.5.5.9:8080/gp/gpControl'
 
-* GoPro.capture_photo(): http://10.5.5.9:8080/camera/shutter/start
+### GoPro.capture_photo()
+http://10.5.5.9:8080/camera/shutter/start
 
-* GoPro.wait(): http://10.5.5.9:8080/gopro/media/list'
+### GoPro.wait() 
+http://10.5.5.9:8080/gopro/media/list'
 
-* GoPro.download(), GoPro.download_all(), GoPro.download_last(): 
+### GoPro.download(), GoPro.download_all() and GoPro.download_last()
+
+
 
 ## Media Class
 
