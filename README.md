@@ -1,7 +1,7 @@
 # gopro_api
 
 This is a tiny REST-like API to capture and download photos from a GoPro Hero 10 camera. 
-It uses python's requests package to ```\"GET\"``` data from the endpoints defined by the GoPro's official HTTP documentation.
+It uses python's requests package to ```"GET"``` data from the endpoints defined by the GoPro's official HTTP documentation.
 
 Pydantic's base model is used to validate endpoints' URLs, media's directories and destination folder.
 
