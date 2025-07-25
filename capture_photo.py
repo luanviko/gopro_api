@@ -42,18 +42,6 @@ class GoPro(BaseModel):
         response.raise_for_status()
         return response.json()
 
-    def info(self) -> Dict[str, Any]:
-        """Retrieve GoPro camera information using the old API.
-
-        Returns:
-            Dict[str, Any]: JSON dictionary with camera info.
-        """
-        old_api_url = f'http://{self.gopro_ip}/gp/gpControl'
-        url = f'{old_api_url}/info'
-        response = requests.get(url)
-        response.raise_for_status()
-        return response.json()['info']
-
     def capture_photo(self) -> Response:
         """Trigger the GoPro to capture a photo.
 
