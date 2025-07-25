@@ -1,0 +1,14 @@
+TODO:
+
+- Download latest file
+
+QUESTIONS:
+
+- What is <Response [200]>
+
+- cls is used in Media because
+Pydantic validates the data 
+before creating the instance.
+
+- Pydantic v2 uses @field_ and @model_ validators.
+@validator and @root_ have been deprecated
