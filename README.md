@@ -32,12 +32,18 @@ Description: Retrive the information in Media.url (endpoint containing file in c
 Endpoint example: http://10.5.5.9:8080/videos/DCIM/directory/filename 
 
 
-### GoPro.download_all() and GoPro.download_last()
- 
-Description: 1) List all files in SD card of the camera. 2) Download all photos or only the most recent with GoPro.download()
+### GoPro.download_all() 
+
+Description: Retrive list of all files in SD card of the camera and download all with GoPro.download()
 
 Endpoint: http://10.5.5.9:8080/gopro/media/list
 
+
+### GoPro.download_last()
+ 
+Description: Retrive list of all files in SD card of the camera and download the most recent with GoPro.download()
+
+Endpoint: http://10.5.5.9:8080/gopro/media/list
 
 
 ### GoPro.wait() 
